@@ -52,6 +52,8 @@ services:
       - "8000:8000"
     volumes:
       - ./backend/media:/app/media
+      - ./config:/config
+      - ./DB:/DB
     environment:
       - SECRET_KEY=django-insecure-upsc-aspire-secret-key-replace-in-prod
       - DEBUG=True

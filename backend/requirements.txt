@@ -11,3 +11,10 @@ python-dotenv>=1.0
 sentence-transformers>=2.2
 django-prometheus>=2.3
 pytesseract==0.3.13
+django-cors-headers>=4.0.0
+django-allauth>=65.0.0
+dj-rest-auth>=5.0.0
+cryptography>=41.0.0
+pymongo>=4.0
+feedparser>=6.0
+PyJWT>=2.0.0
