@@ -192,3 +192,18 @@
   margin-bottom: 1rem;
   color: var(--success);
 }
+
+.uploadLink {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.uploadLink:hover {
+  text-decoration: underline;
+  color: var(--primary-hover);
+}

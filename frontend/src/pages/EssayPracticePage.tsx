@@ -302,6 +302,14 @@ export default function EssayPracticePage({ trackSlug, roadmapItemId, onBack }: 
                       <div className={styles.qrLabel}>Scan to Upload Answer</div>
                       <QRCode value={uploadUrl} size={150} level="M" />
                       <div className={styles.qrHelp}>Open phone camera and scan</div>
+                      <a 
+                        href={uploadUrl} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className={styles.uploadLink}
+                      >
+                        Or upload from this device
+                      </a>
                     </div>
                   </div>
                 );
