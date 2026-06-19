@@ -137,7 +137,9 @@ Essay Text:
 JSON Output:"""
 
         import requests
-        url = "http://localhost:11434/api/generate"
+        import os
+        ollama_base = os.environ.get('OLLAMA_BASE_URL', 'http://localhost:11434').rstrip('/')
+        url = f"{ollama_base}/api/generate"
         payload = {
             "model": "llama3.2:latest",
             "prompt": system_prompt,

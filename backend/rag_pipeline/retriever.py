@@ -2,7 +2,9 @@ from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
 from qdrant_client.http import models as qmodels
 
-client = QdrantClient(host="localhost", port=6333)
+import os
+qdrant_host = os.environ.get('QDRANT_HOST', 'localhost')
+client = QdrantClient(host=qdrant_host, port=6333)
 model = SentenceTransformer("all-MiniLM-L6-v2")
 COLLECTION_NAME = "gov_exam_knowledge"
 
