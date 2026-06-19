@@ -1,0 +1,13 @@
+Django>=4.2
+djangorestframework>=3.14
+celery>=5.3
+redis>=5.0
+psycopg2-binary>=2.9
+qdrant-client>=1.7
+beautifulsoup4>=4.12
+requests>=2.31
+drf-yasg>=1.21
+python-dotenv>=1.0
+sentence-transformers>=2.2
+django-prometheus>=2.3
+pytesseract==0.3.13

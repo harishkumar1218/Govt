@@ -1,0 +1,46 @@
+{
+  "app_name": "UPSC Aspire",
+  "default_from_email": "noreply@upscaspire.com",
+  "eligibility_categories": ["General", "EWS", "OBC", "SC", "ST"],
+  "quiz": {
+    "default_start_hour": 18,
+    "default_start_minute": 0,
+    "default_duration_seconds": 600,
+    "default_questions_per_quiz": 10,
+    "starts_soon_threshold_seconds": 1800,
+    "leaderboard_top_n": 3,
+    "weekday_topics": {
+      "0": "Modern History and Geography",
+      "1": "Polity and Constitution",
+      "2": "Economy and Environment",
+      "3": "Ethics, Integrity, and Aptitude",
+      "4": "Science, Technology and Current Events",
+      "5": "Logical Reasoning and CSAT",
+      "6": "Comprehensive Full Mock"
+    }
+  },
+  "essay": {
+    "default_title": "UPSC Mains Essay Practice",
+    "questions_per_session": 2,
+    "default_max_marks": 125,
+    "practice_node_tags": ["Essay"]
+  },
+  "recommendation": {
+    "standard_subjects": [
+      "Polity", "History", "Economy", "Environment", "Geography",
+      "Arithmetic", "Advanced Math", "Reasoning", "English",
+      "Physics", "Chemistry", "General Studies", "Aptitude",
+      "Ethics", "Management", "Technical", "Algebra", "Trigonometry", "Calculus"
+    ],
+    "weak_threshold": 60.0,
+    "strength_threshold": 80.0
+  },
+  "current_affairs": {
+    "rss_feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+  },
+  "llm": {
+    "default_model": "mlx-community/Llama-3.2-3B-Instruct-4bit",
+    "ollama_base_url": "http://localhost:11434",
+    "ollama_model": "llama3.2:latest"
+  }
+}

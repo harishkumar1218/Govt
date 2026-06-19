@@ -1,0 +1,69 @@
+.examWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--bg-alt);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--bg-surface);
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: var(--shadow-sm);
+  z-index: 10;
+}
+
+.headerLeft h2 {
+  font-size: 1.25rem;
+  color: var(--primary);
+  margin: 0;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.timer {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--danger);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.timer span {
+  font-variant-numeric: tabular-nums;
+}
+
+.mainContent {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.leftPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  position: relative;
+}
+
+.questionContainer {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.rightPanel {
+  width: 320px;
+  background-color: var(--bg-surface);
+  border-left: 1px solid #e2e8f0;
+  overflow-y: auto;
+}

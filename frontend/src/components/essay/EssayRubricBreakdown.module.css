@@ -1,0 +1,115 @@
+.container {
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--text-main);
+  border-bottom: 2px solid var(--primary);
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.rubricList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.rubricCard {
+  background: var(--bg-surface);
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+}
+
+.rubricHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.criterion {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.scoreBadge {
+  background: var(--bg-body);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--primary);
+  border: 1px solid #e2e8f0;
+}
+
+.progressTrack {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.reasoning {
+  font-size: 0.95rem;
+  color: var(--text-main);
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.feedbackGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .feedbackGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.feedbackBox {
+  padding: 0.75rem;
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  background: var(--bg-body);
+  border-left: 3px solid transparent;
+}
+
+.positiveLabel {
+  display: block;
+  color: var(--success);
+  margin-bottom: 0.25rem;
+}
+
+.negativeLabel {
+  display: block;
+  color: var(--danger);
+  margin-bottom: 0.25rem;
+}
+
+.actionBox {
+  background: #f0fdf4;
+  border-left-color: var(--success);
+}
+
+.actionLabel {
+  display: block;
+  color: #166534;
+  margin-bottom: 0.25rem;
+}

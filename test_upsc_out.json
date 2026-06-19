@@ -1,0 +1,72 @@
+{
+  "quiz": {
+    "track_slug": "upsc",
+    "exam_name": "UPSC Civil Services Examination",
+    "stage": "Prelims",
+    "paper": "General Studies Paper I",
+    "duration_seconds": 7200,
+    "marks_per_question": 2.0,
+    "negative_marking": 0.66
+  },
+  "questions": [
+    {
+      "order": 1,
+      "text": "What is the primary role of family society and educational institutions in inculcating values in the next generation?",
+      "options": {
+        "A": "To shape moral and political attitudes and social influence and persuasion.",
+        "B": "To provide a foundation for emotional intelligence and aptitude in administration and governance.",
+        "C": "To instill human values and lessons from the lives and teachings of great leaders, reformers, and administrators.",
+        "D": "To promote probity in governance and ethical governance in public administration."
+      },
+      "correct_answer": "C",
+      "explanation": "According to Nisbett and Masuda (2005), family society and educational institutions play a crucial role in shaping moral and political attitudes and social influence and persuasion. This is because they provide a foundation for human values and lessons from the lives and teachings of great leaders, reformers, and administrators. By instilling these values, they help individuals develop emotional intelligence and aptitude in administration and governance.",
+      "subject": "UPSC Civil Services - Ethics, Integrity, and Aptitude",
+      "difficulty": "medium",
+      "source_refs": ["Nisbett, R. E., & Masuda, T. (2005). Culture and point of view. In D. Matsumoto, Y. H. Yee, & T. K. Nakamura (Eds.), Handbook of cross-cultural psychology (pp. 83-103). New York: Springer"]
+    },
+    {
+      "order": 2,
+      "text": "What is the primary consequence of a lack of emotional intelligence in administration and governance?",
+      "options": {
+        "A": "Ineffective decision-making and poor communication skills.",
+        "B": "Lack of empathy and tolerance towards the weaker sections of society.",
+        "C": "Inadequate leadership and poor management skills.",
+        "D": "All of the above."
+      },
+      "correct_answer": "D",
+      "explanation": "According to Goleman (1995), a lack of emotional intelligence in administration and governance can lead to ineffective decision-making, poor communication skills, inadequate leadership, and poor management skills. This is because emotional intelligence is essential for developing empathy and tolerance towards the weaker sections of society, as well as for making effective decisions and communicating effectively with others.",
+      "subject": "UPSC Civil Services - Ethics, Integrity, and Aptitude",
+      "difficulty": "medium",
+      "source_refs": ["Goleman, D. (1995). Emotional intelligence: Why it can matter more than IQ. New York: Bantam Books"]
+    },
+    {
+      "order": 3,
+      "text": "What is the primary role of moral thinkers and philosophers in shaping public values and ethics in governance?",
+      "options": {
+        "A": "To provide a philosophical basis for governance and probity.",
+        "B": "To promote human values and lessons from the lives and teachings of great leaders, reformers, and administrators.",
+        "C": "To provide a foundation for emotional intelligence and aptitude in administration and governance.",
+        "D": "To shape moral and political attitudes and social influence and persuasion."
+      },
+      "correct_answer": "A",
+      "explanation": "According to Aristotle (1999), moral thinkers and philosophers play a crucial role in shaping public values and ethics in governance. They provide a philosophical basis for governance and probity, which is essential for developing effective public policies and promoting the common good.",
+      "subject": "UPSC Civil Services - Ethics, Integrity, and Aptitude",
+      "difficulty": "medium",
+      "source_refs": ["Aristotle. (1999). Politics. (T. J. Savage, Trans.). Oxford University Press"]
+    },
+    {
+      "order": 4,
+      "text": "What is the primary consequence of a lack of transparency and accountability in government?",
+      "options": {
+        "A": "Erosion of trust in government and institutions.",
+        "B": "Lack of empathy and tolerance towards the weaker sections of society.",
+        "C": "Inadequate leadership and poor management skills.",
+        "D": "All of the above."
+      },
+      "correct_answer": "D",
+      "explanation": "According to Transparency International (2019), a lack of transparency and accountability in government can lead to erosion of trust in government and institutions, as well as inadequate leadership and poor management skills. This is because transparency and accountability are essential for promoting good governance and preventing corruption.",
+      "subject": "UPSC Civil Services - Ethics, Integrity, and Aptitude",
+      "difficulty": "medium",
+      "source_refs": ["Transparency International. (2019). Global Corruption Barometer 2019. Berlin: Transparency International"]
+    }
+  ]

@@ -1,0 +1,473 @@
+.pageWrapper {
+  min-height: 100vh;
+  padding: 2rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  gap: 1.5rem;
+}
+
+.backBtn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-main);
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.backBtn:hover {
+  background: var(--bg-alt);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--text-main) 0%, var(--primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+/* Two Column Split Layout */
+.contentSplit {
+  display: flex;
+  gap: 3.5rem;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.timelineColumn {
+  flex: 0 0 340px;
+  position: sticky;
+  top: 100px;
+}
+
+.newsColumn {
+  flex: 1;
+  min-width: 0;
+}
+
+.columnTitle {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  color: var(--primary);
+}
+
+/* Vertical Timeline (Years) */
+.timelineContainer {
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+.verticalLine {
+  position: absolute;
+  left: 11px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: linear-gradient(180deg, var(--primary) 0%, rgba(59, 130, 246, 0.05) 100%);
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.15);
+}
+
+.timelineItem {
+  position: relative;
+  padding-left: 2.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.timelineItem:last-child {
+  margin-bottom: 0;
+}
+
+.timelineNode {
+  position: absolute;
+  left: 5px;
+  top: 24px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--bg-body);
+  border: 3px solid var(--primary);
+  box-shadow: 0 0 8px var(--primary);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 2;
+}
+
+.timelineItem:hover .timelineNode {
+  background: var(--primary);
+  transform: scale(1.2);
+  box-shadow: 0 0 14px var(--primary);
+}
+
+.yearCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.5rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.timelineItem:hover .yearCard {
+  border-color: rgba(99, 102, 241, 0.3);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
+}
+
+.yearBadge {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--primary);
+  background: rgba(99, 102, 241, 0.08);
+  padding: 0.2rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid rgba(99, 102, 241, 0.15);
+  display: inline-block;
+}
+
+.yearSummary {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin: 1rem 0;
+  line-height: 1.4;
+}
+
+.yearHighlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.25rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.yearHighlights li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.yearHighlights li::before {
+  content: "•";
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.readMoreYearBtn {
+  background: transparent;
+  border: 1px solid rgba(99, 102, 241, 0.4);
+  color: var(--text-main);
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.readMoreYearBtn:hover {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+  box-shadow: 0 0 12px rgba(99, 102, 241, 0.35);
+}
+
+/* Right Column: Live Feed & Feeds */
+.sectionTitle {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.todayIcon {
+  color: #ef4444;
+  font-size: 0.75rem;
+  animation: pulseNews 2s infinite;
+}
+
+@keyframes pulseNews {
+  0% { opacity: 0.4; }
+  50% { opacity: 1; }
+  100% { opacity: 0.4; }
+}
+
+.newsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.newsCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+
+.newsCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.cardDate {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+  color: var(--text-main);
+  flex-grow: 1;
+}
+
+.cardDesc {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.readMore {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--primary);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* Month-Wise Archive View */
+.archiveWrapper {
+  padding: 1rem 0 4rem;
+}
+
+.monthTimeline {
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+.archiveVerticalLine {
+  position: absolute;
+  left: 11px;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background: linear-gradient(180deg, var(--primary) 0%, rgba(59, 130, 246, 0.05) 100%);
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.15);
+}
+
+.monthSection {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.monthSection:last-child {
+  margin-bottom: 0;
+}
+
+.monthTimelineNode {
+  position: absolute;
+  left: -20px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--bg-body);
+  border: 3px solid var(--primary);
+  box-shadow: 0 0 8px var(--primary);
+  z-index: 2;
+}
+
+.monthHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.monthBadge {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text-main);
+  background: var(--bg-alt);
+  padding: 0.4rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.articleCount {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.archiveGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.archiveCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+.archiveCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.archiveCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.78rem;
+}
+
+.archiveSource {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.archiveDate {
+  color: var(--text-muted);
+}
+
+.archiveCardTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.archiveCardDesc {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.archiveReadMore {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--primary);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: transform 0.2s ease;
+}
+
+.archiveCard:hover .archiveReadMore {
+  transform: translateX(4px);
+}
+
+.loadingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+/* Responsive Grid/Column adjustments */
+@media (max-width: 992px) {
+  .contentSplit {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .timelineColumn {
+    flex: none;
+    width: 100%;
+    position: static;
+  }
+  
+  .timelineContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding-left: 0;
+  }
+  
+  .verticalLine {
+    display: none;
+  }
+  
+  .timelineItem {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .timelineNode {
+    display: none;
+  }
+}

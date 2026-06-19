@@ -1,0 +1,258 @@
+.container {
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #94a3b8;
+  margin-top: 5rem;
+}
+
+.errorBox {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.errorBox h3 {
+  color: #ef4444;
+  margin-top: 0;
+}
+
+.backBtn {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #334155;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.quitBtn {
+  background: transparent;
+  color: #94a3b8;
+  border: 1px solid #475569;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.progressText {
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
+.timer {
+  font-size: 1.2rem;
+  font-family: monospace;
+  font-weight: 700;
+  color: #10b981;
+}
+
+.timerWarning {
+  color: #ef4444;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.progressBar {
+  width: 100%;
+  height: 6px;
+  background: #1e293b;
+  border-radius: 3px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: #3b82f6;
+  transition: width 0.3s ease;
+}
+
+.questionCard {
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid #334155;
+  flex: 1;
+}
+
+.questionText {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: #f1f5f9;
+}
+
+.optionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.optionBtn {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  background: #0f172a;
+  border: 1px solid #334155;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #cbd5e1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.optionBtn:hover {
+  border-color: #3b82f6;
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.selectedOption {
+  border-color: #3b82f6;
+  background: rgba(59, 130, 246, 0.1);
+}
+
+.optionLetter {
+  background: #334155;
+  color: white;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-right: 1rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.selectedOption .optionLetter {
+  background: #3b82f6;
+}
+
+.optionText {
+  font-size: 1.1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.navBtn {
+  background: #334155;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.submitBtn {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Results Screen */
+.resultsCard {
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid #334155;
+}
+
+.resultsHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #334155;
+}
+
+.scoreBadge {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #3b82f6;
+  margin: 1rem 0;
+}
+
+.reviewSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.reviewCard {
+  background: #0f172a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid transparent;
+}
+
+.reviewCard.correct {
+  border-left-color: #10b981;
+}
+
+.reviewCard.incorrect {
+  border-left-color: #ef4444;
+}
+
+.reviewCard h4 {
+  margin-top: 0;
+  color: #f1f5f9;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.userChoice, .correctChoice {
+  margin: 0.5rem 0;
+  color: #cbd5e1;
+}
+
+.explanation {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #1e293b;
+  color: #94a3b8;
+  font-style: italic;
+  line-height: 1.6;
+}

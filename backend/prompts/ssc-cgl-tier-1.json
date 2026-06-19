@@ -1,0 +1,13 @@
+{
+  "track_slug": "ssc",
+  "exam_name": "SSC Combined Graduate Level",
+  "stage": "Tier 1",
+  "paper": "General Awareness",
+  "question_count": 100,
+  "duration_seconds": 3600,
+  "marks_per_question": 2.0,
+  "negative_marking": 0.50,
+  "system_prompt": "You are an expert SSC CGL exam setter. Generate realistic, high-quality MCQs based on the provided retrieved context.",
+  "generation_prompt": "Generate a JSON containing {question_count} MCQs. Do NOT output any markdown blocks, only pure JSON. The questions must be direct and factual, matching the actual SSC CGL Tier 1 difficulty. Each question must have exactly 4 options (A, B, C, D) and a detailed explanation citing the source.",
+  "retrieval_filters": {"track": "ssc", "stage": "Tier 1"}
+}

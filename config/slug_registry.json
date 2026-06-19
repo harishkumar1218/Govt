@@ -1,0 +1,34 @@
+{
+  "tracks": {
+    "upsc": {
+      "rag_slug": "upsc-civil-services",
+      "pattern_slug": "upsc-civil-services",
+      "prompt_file": "upsc-civil-services.json",
+      "default_stage": "Prelims"
+    },
+    "ssc": {
+      "rag_slug": "ssc",
+      "pattern_slug": "ssc",
+      "prompt_file": "ssc-cgl-tier-1.json",
+      "default_stage": "Tier 1"
+    },
+    "nda": {
+      "rag_slug": "nda",
+      "pattern_slug": "nda",
+      "prompt_file": "nda-maths.json",
+      "default_stage": "Mathematics"
+    },
+    "cds": {
+      "rag_slug": "cds",
+      "pattern_slug": "cds",
+      "prompt_file": "cds-gk.json",
+      "default_stage": "General Knowledge"
+    },
+    "ese": {
+      "rag_slug": "ese",
+      "pattern_slug": "ese",
+      "prompt_file": "ese-prelims-paper-1.json",
+      "default_stage": "Prelims"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+.mobileWrapper {
+  min-height: 100vh;
+  background-color: var(--bg-body);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.mobileHeader {
+  text-align: center;
+  padding: 1rem 0 2rem;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 2rem;
+}
+
+.mobileLogo {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 0.25rem;
+}
+
+.mobileSessionInfo {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.card {
+  background: var(--bg-surface);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 1.5rem;
+}
+
+.qHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.qPrompt {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--text-main);
+  margin-bottom: 1.5rem;
+}
+
+.uploadArea {
+  margin-top: 1.5rem;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.uploadLabel {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.fileInput {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px dashed #cbd5e1;
+  border-radius: var(--radius-md);
+  background: var(--bg-body);
+}
+
+.previewGrid {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.previewImage {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #e2e8f0;
+}
+
+.btnPrimary {
+  width: 100%;
+  padding: 1rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.btnPrimary:disabled {
+  opacity: 0.5;
+}
+
+.successState {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.successIcon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.successTitle {
+  font-size: 1.5rem;
+  color: var(--success);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.btnSecondary {
+  background: white;
+  color: var(--text-main);
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  margin-top: 2rem;
+  width: 100%;
+}

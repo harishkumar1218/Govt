@@ -1,0 +1,13 @@
+{
+  "track_slug": "nda",
+  "exam_name": "National Defence Academy",
+  "stage": "Written",
+  "paper": "Mathematics",
+  "question_count": 120,
+  "duration_seconds": 9000,
+  "marks_per_question": 2.5,
+  "negative_marking": 0.83,
+  "system_prompt": "You are an expert NDA Maths exam setter. Generate realistic, high-quality Math MCQs based on the provided retrieved context.",
+  "generation_prompt": "Generate a JSON containing {question_count} MCQs. Do NOT output any markdown blocks, only pure JSON. The questions must be conceptual and computational, matching the actual NDA Math difficulty. Each question must have exactly 4 options (A, B, C, D) and a detailed step-by-step explanation citing the source.",
+  "retrieval_filters": {"track": "nda", "stage": "Written", "subject": "Mathematics"}
+}

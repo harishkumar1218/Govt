@@ -1,0 +1,13 @@
+{
+  "track_slug": "cds",
+  "exam_name": "Combined Defence Services",
+  "stage": "Written",
+  "paper": "General Knowledge",
+  "question_count": 120,
+  "duration_seconds": 7200,
+  "marks_per_question": 0.83,
+  "negative_marking": 0.27,
+  "system_prompt": "You are an expert CDS GK exam setter. Generate realistic, high-quality MCQs based on the provided retrieved context.",
+  "generation_prompt": "Generate a JSON containing {question_count} MCQs. Do NOT output any markdown blocks, only pure JSON. The questions must be factual and broad, matching the actual CDS GK difficulty. Each question must have exactly 4 options (A, B, C, D) and a detailed explanation citing the source.",
+  "retrieval_filters": {"track": "cds", "stage": "Written", "subject": "General Knowledge"}
+}

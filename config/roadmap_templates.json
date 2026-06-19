@@ -1,0 +1,1367 @@
+[
+  {
+    "id": "u-1",
+    "track_slug": "upsc",
+    "title": "Syllabus Decoding & Strategy",
+    "type": "Foundation",
+    "phase": "Foundation & NCERTs",
+    "order": 1,
+    "estimated_hours": 5,
+    "weightage": "High",
+    "description": "Analyze the official UPSC syllabus and past year trends.",
+    "resources": [
+      "Official UPSC Gazette",
+      "Previous Year Papers Analysis"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "General Strategy",
+      "Syllabus"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-2",
+    "track_slug": "upsc",
+    "title": "NCERT History (Class 6-12)",
+    "type": "Foundation",
+    "phase": "Foundation & NCERTs",
+    "order": 2,
+    "estimated_hours": 40,
+    "weightage": "Medium",
+    "description": "Build historical foundations, particularly Ancient and Medieval India.",
+    "resources": [
+      "NCERT Class 6-12 History Books"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "History",
+      "Ancient India",
+      "Medieval India"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-3",
+    "track_slug": "upsc",
+    "title": "NCERT Geography (Class 6-12)",
+    "type": "Foundation",
+    "phase": "Foundation & NCERTs",
+    "order": 3,
+    "estimated_hours": 35,
+    "weightage": "High",
+    "description": "Understand physical and human geography fundamentals.",
+    "resources": [
+      "NCERT Class 6-12 Geography Books"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Geography",
+      "Physical Geography",
+      "Human Geography"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-4",
+    "track_slug": "upsc",
+    "title": "NCERT Polity & Economy",
+    "type": "Foundation",
+    "phase": "Foundation & NCERTs",
+    "order": 4,
+    "estimated_hours": 30,
+    "weightage": "High",
+    "description": "Democratic Politics, Indian Constitution at Work, Macroeconomics.",
+    "resources": [
+      "NCERT Class 9-12 Polity Books",
+      "NCERT Class 11-12 Economics Books"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Polity",
+      "Economy",
+      "Constitution"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-5",
+    "track_slug": "upsc",
+    "title": "Indian Polity (Laxmikanth)",
+    "type": "Core",
+    "phase": "Prelims Core Subjects",
+    "order": 5,
+    "estimated_hours": 80,
+    "weightage": "Very High",
+    "description": "In-depth study of the Indian Constitution, Governance, and Rights.",
+    "resources": [
+      "M. Laxmikanth - Indian Polity"
+    ],
+    "prerequisites": [
+      "u-4"
+    ],
+    "tags": [
+      "Polity",
+      "Governance",
+      "Constitution"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-6",
+    "track_slug": "upsc",
+    "title": "Modern Indian History (Spectrum)",
+    "type": "Core",
+    "phase": "Prelims Core Subjects",
+    "order": 6,
+    "estimated_hours": 60,
+    "weightage": "Very High",
+    "description": "From the advent of Europeans to Indian Independence.",
+    "resources": [
+      "Spectrum - Modern History"
+    ],
+    "prerequisites": [
+      "u-2"
+    ],
+    "tags": [
+      "History",
+      "Modern History"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-7",
+    "track_slug": "upsc",
+    "title": "Indian Economy (Ramesh Singh/Mrunal)",
+    "type": "Core",
+    "phase": "Prelims Core Subjects",
+    "order": 7,
+    "estimated_hours": 70,
+    "weightage": "Very High",
+    "description": "Banking, Fiscal Policy, Inflation, and External Sector.",
+    "resources": [
+      "Ramesh Singh - Indian Economy",
+      "Mrunal Patel Economics Handouts"
+    ],
+    "prerequisites": [
+      "u-4"
+    ],
+    "tags": [
+      "Economy",
+      "Fiscal Policy",
+      "Banking"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-8",
+    "track_slug": "upsc",
+    "title": "Environment & Ecology",
+    "type": "Core",
+    "phase": "Prelims Core Subjects",
+    "order": 8,
+    "estimated_hours": 45,
+    "weightage": "High",
+    "description": "Biodiversity, Climate Change, and Environmental Organizations.",
+    "resources": [
+      "Shankar IAS - Environment"
+    ],
+    "prerequisites": [
+      "u-3"
+    ],
+    "tags": [
+      "Environment",
+      "Ecology",
+      "Biodiversity"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-9",
+    "track_slug": "upsc",
+    "title": "Daily Newspaper Reading",
+    "type": "Practice",
+    "phase": "Current Affairs & Mains Integration",
+    "order": 9,
+    "estimated_hours": 2,
+    "weightage": "Very High",
+    "description": "The Hindu or Indian Express editorials and news.",
+    "resources": [
+      "The Hindu",
+      "The Indian Express"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Current Affairs",
+      "Editorials"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-10",
+    "track_slug": "upsc",
+    "title": "Mains GS Papers (1-4)",
+    "type": "Core",
+    "phase": "Current Affairs & Mains Integration",
+    "order": 10,
+    "estimated_hours": 150,
+    "weightage": "Very High",
+    "description": "World History, Ethics, Internal Security, Disaster Management.",
+    "resources": [
+      "Standard Mains Reference Material"
+    ],
+    "prerequisites": [
+      "u-5",
+      "u-6",
+      "u-7"
+    ],
+    "tags": [
+      "Ethics",
+      "Internal Security",
+      "World History"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-11",
+    "track_slug": "upsc",
+    "title": "Optional Subject Mastery",
+    "type": "Core",
+    "phase": "Current Affairs & Mains Integration",
+    "order": 11,
+    "estimated_hours": 200,
+    "weightage": "Very High",
+    "description": "Deep dive into your chosen optional papers 1 and 2.",
+    "resources": [
+      "Optional Subject Syllabus & Standard Books"
+    ],
+    "prerequisites": [
+      "u-1"
+    ],
+    "tags": [
+      "Optional Subject"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-12",
+    "track_slug": "upsc",
+    "title": "Answer Writing Practice",
+    "type": "Practice",
+    "phase": "Current Affairs & Mains Integration",
+    "order": 12,
+    "estimated_hours": 50,
+    "weightage": "Very High",
+    "description": "Daily answer writing to build speed and structure.",
+    "resources": [
+      "UPSC Mains PYQs"
+    ],
+    "prerequisites": [
+      "u-5",
+      "u-6"
+    ],
+    "tags": [
+      "Answer Writing",
+      "Practice"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-17",
+    "track_slug": "upsc",
+    "title": "Write Essay on Paper",
+    "type": "Practice",
+    "phase": "Current Affairs & Mains Integration",
+    "order": 12,
+    "estimated_hours": 30,
+    "weightage": "Very High",
+    "description": "Practice UPSC Mains essay writing on paper and upload answer sheets via mobile.",
+    "resources": [
+      "UPSC Essay Past Papers"
+    ],
+    "prerequisites": [
+      "u-12"
+    ],
+    "tags": [
+      "Answer Writing",
+      "Essay",
+      "Practice"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-13",
+    "track_slug": "upsc",
+    "title": "Prelims Test Series",
+    "type": "Mock Tests",
+    "phase": "Evaluation & Final Sprint",
+    "order": 13,
+    "estimated_hours": 60,
+    "weightage": "High",
+    "description": "Solve at least 40-50 full length prelims mock tests.",
+    "resources": [
+      "Standard Academy Test Series"
+    ],
+    "prerequisites": [
+      "u-5",
+      "u-6",
+      "u-7",
+      "u-8"
+    ],
+    "tags": [
+      "Mock Tests",
+      "Prelims"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-14",
+    "track_slug": "upsc",
+    "title": "Mains Test Series",
+    "type": "Mock Tests",
+    "phase": "Evaluation & Final Sprint",
+    "order": 14,
+    "estimated_hours": 90,
+    "weightage": "High",
+    "description": "3-hour intensive writing simulations with evaluation.",
+    "resources": [
+      "Mains Mock Test Papers"
+    ],
+    "prerequisites": [
+      "u-12"
+    ],
+    "tags": [
+      "Mock Tests",
+      "Mains"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-15",
+    "track_slug": "upsc",
+    "title": "Final Revision Maps",
+    "type": "Revision",
+    "phase": "Evaluation & Final Sprint",
+    "order": 15,
+    "estimated_hours": 40,
+    "weightage": "High",
+    "description": "Rapid revision using mind maps and short notes.",
+    "resources": [
+      "Self-made short notes",
+      "Revision mind maps"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Revision"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "u-16",
+    "track_slug": "upsc",
+    "title": "Interview / Personality Test",
+    "type": "Final Sprint",
+    "phase": "Evaluation & Final Sprint",
+    "order": 16,
+    "estimated_hours": 30,
+    "weightage": "Medium",
+    "description": "DAF preparation, mock interviews, and conversational skills.",
+    "resources": [
+      "Detailed Application Form (DAF)",
+      "Mock Interviews"
+    ],
+    "prerequisites": [
+      "u-14"
+    ],
+    "tags": [
+      "Interview",
+      "Personality Test"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "s-1",
+    "track_slug": "ssc",
+    "title": "Exam Pattern & Shortcuts",
+    "type": "Foundation",
+    "phase": "Foundation & Quant",
+    "order": 1,
+    "estimated_hours": 5,
+    "weightage": "Medium",
+    "description": "Understand Tier 1 and Tier 2 patterns.",
+    "resources": [
+      "Official SSC Gazette"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Pattern",
+      "Syllabus"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "s-2",
+    "track_slug": "ssc",
+    "title": "Arithmetic",
+    "type": "Core",
+    "phase": "Foundation & Quant",
+    "order": 2,
+    "estimated_hours": 40,
+    "weightage": "High",
+    "description": "Percentages, Ratio, Profit Loss, Time & Work.",
+    "resources": [
+      "Rakesh Yadav - Class Notes of Maths"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Arithmetic",
+      "Math"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "s-3",
+    "track_slug": "ssc",
+    "title": "Advanced Math",
+    "type": "Core",
+    "phase": "Foundation & Quant",
+    "order": 3,
+    "estimated_hours": 50,
+    "weightage": "High",
+    "description": "Algebra, Geometry, Trigonometry, Mensuration.",
+    "resources": [
+      "Play with Advanced Maths by Abhinay Sharma"
+    ],
+    "prerequisites": [
+      "s-2"
+    ],
+    "tags": [
+      "Advanced Math",
+      "Math"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "s-4",
+    "track_slug": "ssc",
+    "title": "Verbal & Non-Verbal Reasoning",
+    "type": "Core",
+    "phase": "Reasoning & English",
+    "order": 4,
+    "estimated_hours": 30,
+    "weightage": "Medium",
+    "description": "Series, Coding-Decoding, Syllogism, Blood Relations.",
+    "resources": [
+      "Kiran Publications Reasoning Book"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Reasoning"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "s-5",
+    "track_slug": "ssc",
+    "title": "English Grammar",
+    "type": "Core",
+    "phase": "Reasoning & English",
+    "order": 5,
+    "estimated_hours": 35,
+    "weightage": "High",
+    "description": "Parts of speech, Subject-Verb Agreement, Active/Passive.",
+    "resources": [
+      "Plinth to Paramount by Neetu Singh"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "English",
+      "Grammar"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "s-6",
+    "track_slug": "ssc",
+    "title": "Vocabulary & Comprehension",
+    "type": "Core",
+    "phase": "Reasoning & English",
+    "order": 6,
+    "estimated_hours": 40,
+    "weightage": "High",
+    "description": "Idioms, One-word substitution, Synonyms/Antonyms.",
+    "resources": [
+      "Word Power Made Easy by Norman Lewis"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "English",
+      "Vocabulary"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "s-7",
+    "track_slug": "ssc",
+    "title": "Static GK",
+    "type": "Core",
+    "phase": "General Awareness & Computer",
+    "order": 7,
+    "estimated_hours": 30,
+    "weightage": "Medium",
+    "description": "History, Geography, Polity, Science.",
+    "resources": [
+      "Lucent's General Knowledge"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "GK",
+      "Static GK"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "s-8",
+    "track_slug": "ssc",
+    "title": "Current Affairs",
+    "type": "Practice",
+    "phase": "General Awareness & Computer",
+    "order": 8,
+    "estimated_hours": 20,
+    "weightage": "Low",
+    "description": "Last 6-8 months of current events.",
+    "resources": [
+      "Monthly Magazines or Youtube compilations"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Current Affairs"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "s-9",
+    "track_slug": "ssc",
+    "title": "Computer Knowledge",
+    "type": "Core",
+    "phase": "General Awareness & Computer",
+    "order": 9,
+    "estimated_hours": 15,
+    "weightage": "Low",
+    "description": "Qualifying paper basics: Hardware, MS Office, Internet.",
+    "resources": [
+      "Lucent's Computer Awareness"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Computer"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "s-10",
+    "track_slug": "ssc",
+    "title": "Sectional Tests",
+    "type": "Practice",
+    "phase": "Mock Tests & Speed Building",
+    "order": 10,
+    "estimated_hours": 25,
+    "weightage": "High",
+    "description": "Build speed in individual sections.",
+    "resources": [
+      "Mock Test Portal Sectional Tests"
+    ],
+    "prerequisites": [
+      "s-2",
+      "s-4",
+      "s-5"
+    ],
+    "tags": [
+      "Mock Tests"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "s-11",
+    "track_slug": "ssc",
+    "title": "Full-Length Mock Tests",
+    "type": "Mock Tests",
+    "phase": "Mock Tests & Speed Building",
+    "order": 11,
+    "estimated_hours": 50,
+    "weightage": "Very High",
+    "description": "Simulate exam pressure and time management.",
+    "resources": [
+      "Test Series Platforms"
+    ],
+    "prerequisites": [
+      "s-10"
+    ],
+    "tags": [
+      "Mock Tests",
+      "Full Mocks"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "s-12",
+    "track_slug": "ssc",
+    "title": "Revision Hub",
+    "type": "Revision",
+    "phase": "Mock Tests & Speed Building",
+    "order": 12,
+    "estimated_hours": 20,
+    "weightage": "Medium",
+    "description": "Revise math formulas and grammar rules.",
+    "resources": [
+      "Self-made formula lists"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Revision"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "n-1",
+    "track_slug": "nda",
+    "title": "Algebra & Matrices",
+    "type": "Core",
+    "phase": "Mathematics Foundation",
+    "order": 1,
+    "estimated_hours": 30,
+    "weightage": "High",
+    "description": "Sets, Relations, Complex Numbers, Quadratic Equations.",
+    "resources": [
+      "NCERT Class 11-12 Mathematics"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Math",
+      "Algebra"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "n-2",
+    "track_slug": "nda",
+    "title": "Trigonometry",
+    "type": "Core",
+    "phase": "Mathematics Foundation",
+    "order": 2,
+    "estimated_hours": 25,
+    "weightage": "High",
+    "description": "Angles, Properties of Triangles, Inverse Trigonometry.",
+    "resources": [
+      "NCERT Mathematics Class 11 Trigonometric Functions"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Math",
+      "Trigonometry"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "n-3",
+    "track_slug": "nda",
+    "title": "Calculus",
+    "type": "Core",
+    "phase": "Mathematics Foundation",
+    "order": 3,
+    "estimated_hours": 35,
+    "weightage": "Very High",
+    "description": "Differential and Integral Calculus, Limits.",
+    "resources": [
+      "NCERT Class 12 Calculus Chapters"
+    ],
+    "prerequisites": [
+      "n-1"
+    ],
+    "tags": [
+      "Math",
+      "Calculus"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "n-4",
+    "track_slug": "nda",
+    "title": "English Proficiency",
+    "type": "Core",
+    "phase": "General Ability Test (GAT)",
+    "order": 4,
+    "estimated_hours": 40,
+    "weightage": "High",
+    "description": "Grammar, Vocab, Comprehension.",
+    "resources": [
+      "Wren & Martin English Grammar"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "English",
+      "Grammar"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "n-5",
+    "track_slug": "nda",
+    "title": "Physics & Chemistry",
+    "type": "Core",
+    "phase": "General Ability Test (GAT)",
+    "order": 5,
+    "estimated_hours": 45,
+    "weightage": "High",
+    "description": "Mechanics, Optics, Thermodynamics, Basic Chemistry.",
+    "resources": [
+      "Class 9-10 Science, Class 11 Physics Summary"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Science",
+      "Physics",
+      "Chemistry"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "n-6",
+    "track_slug": "nda",
+    "title": "General Studies",
+    "type": "Core",
+    "phase": "General Ability Test (GAT)",
+    "order": 6,
+    "estimated_hours": 30,
+    "weightage": "Medium",
+    "description": "History, Geography, Current Events.",
+    "resources": [
+      "Lucent's General Knowledge"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "GK",
+      "General Studies"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "n-7",
+    "track_slug": "nda",
+    "title": "Physical Fitness",
+    "type": "Foundation",
+    "phase": "Physical & SSB",
+    "order": 7,
+    "estimated_hours": 100,
+    "weightage": "Very High",
+    "description": "Daily running, pushups, sit-ups.",
+    "resources": [
+      "SSB Guidelines & Physical Criteria"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Physical Fitness",
+      "Health"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "n-8",
+    "track_slug": "nda",
+    "title": "SSB Intelligence Test (OIR)",
+    "type": "Practice",
+    "phase": "Physical & SSB",
+    "order": 8,
+    "estimated_hours": 20,
+    "weightage": "High",
+    "description": "Verbal and Non-verbal reasoning for screening.",
+    "resources": [
+      "OIR Sample Papers"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Reasoning",
+      "SSB"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "n-9",
+    "track_slug": "nda",
+    "title": "Psychological Tests",
+    "type": "Practice",
+    "phase": "Physical & SSB",
+    "order": 9,
+    "estimated_hours": 25,
+    "weightage": "High",
+    "description": "TAT, WAT, SRT, SDT.",
+    "resources": [
+      "SSB Psychology Guides"
+    ],
+    "prerequisites": [
+      "n-8"
+    ],
+    "tags": [
+      "SSB",
+      "Psychology"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "n-10",
+    "track_slug": "nda",
+    "title": "Written Exam Mocks",
+    "type": "Mock Tests",
+    "phase": "Final Assessment",
+    "order": 10,
+    "estimated_hours": 40,
+    "weightage": "Very High",
+    "description": "Full length Math and GAT tests.",
+    "resources": [
+      "NDA Mock Booklets"
+    ],
+    "prerequisites": [
+      "n-1",
+      "n-2",
+      "n-4"
+    ],
+    "tags": [
+      "Mock Tests"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "n-11",
+    "track_slug": "nda",
+    "title": "GTO Tasks & Interview",
+    "type": "Final Sprint",
+    "phase": "Final Assessment",
+    "order": 11,
+    "estimated_hours": 30,
+    "weightage": "High",
+    "description": "Group discussions, physical obstacles, personal interview.",
+    "resources": [
+      "Mock GTO Videos & Personal Interview Tips"
+    ],
+    "prerequisites": [
+      "n-9"
+    ],
+    "tags": [
+      "SSB",
+      "Interview"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "c-1",
+    "track_slug": "cds",
+    "title": "English Grammar & Reading",
+    "type": "Core",
+    "phase": "English & GK",
+    "order": 1,
+    "estimated_hours": 40,
+    "weightage": "High",
+    "description": "Spotting errors, sentence arrangement, comprehension.",
+    "resources": [
+      "Pathfinder NDA/CDS English Section"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "English",
+      "Grammar"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "c-2",
+    "track_slug": "cds",
+    "title": "Science (Physics, Chem, Bio)",
+    "type": "Core",
+    "phase": "English & GK",
+    "order": 2,
+    "estimated_hours": 40,
+    "weightage": "High",
+    "description": "NCERT based general science.",
+    "resources": [
+      "NCERT Class 9-10 Science Books"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Science",
+      "Physics",
+      "Chemistry",
+      "Biology"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "c-3",
+    "track_slug": "cds",
+    "title": "History & Polity",
+    "type": "Core",
+    "phase": "English & GK",
+    "order": 3,
+    "estimated_hours": 45,
+    "weightage": "Medium",
+    "description": "Indian Freedom Struggle, Constitutional Framework.",
+    "resources": [
+      "Lucent's GK & Laxmikanth Highlights"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "History",
+      "Polity"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "c-4",
+    "track_slug": "cds",
+    "title": "Arithmetic",
+    "type": "Core",
+    "phase": "Elementary Mathematics",
+    "order": 4,
+    "estimated_hours": 30,
+    "weightage": "Medium",
+    "description": "Number system, time/distance, percentages.",
+    "resources": [
+      "RS Aggarwal - Quantitative Aptitude"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Math",
+      "Arithmetic"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "c-5",
+    "track_slug": "cds",
+    "title": "Algebra & Geometry",
+    "type": "Core",
+    "phase": "Elementary Mathematics",
+    "order": 5,
+    "estimated_hours": 40,
+    "weightage": "High",
+    "description": "Polynomials, lines, angles, triangles, circles.",
+    "resources": [
+      "NCERT Class 10 Mathematics Book"
+    ],
+    "prerequisites": [
+      "c-4"
+    ],
+    "tags": [
+      "Math",
+      "Algebra",
+      "Geometry"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "c-6",
+    "track_slug": "cds",
+    "title": "Mensuration & Stats",
+    "type": "Core",
+    "phase": "Elementary Mathematics",
+    "order": 6,
+    "estimated_hours": 25,
+    "weightage": "Medium",
+    "description": "Areas, volumes, data interpretation.",
+    "resources": [
+      "Formula Handbooks"
+    ],
+    "prerequisites": [
+      "c-5"
+    ],
+    "tags": [
+      "Math",
+      "Mensuration"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "c-7",
+    "track_slug": "cds",
+    "title": "Screening (OIR & PPDT)",
+    "type": "Practice",
+    "phase": "SSB Preparation",
+    "order": 7,
+    "estimated_hours": 20,
+    "weightage": "Very High",
+    "description": "Picture perception and discussion test.",
+    "resources": [
+      "PPDT Practice Books"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "SSB",
+      "PPDT"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "c-8",
+    "track_slug": "cds",
+    "title": "Psychology & GTO",
+    "type": "Practice",
+    "phase": "SSB Preparation",
+    "order": 8,
+    "estimated_hours": 40,
+    "weightage": "High",
+    "description": "Ground Tasks and psych evaluations.",
+    "resources": [
+      "SSB Preparation Manuals"
+    ],
+    "prerequisites": [
+      "c-7"
+    ],
+    "tags": [
+      "SSB",
+      "GTO"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "c-9",
+    "track_slug": "cds",
+    "title": "Sectional Mocks",
+    "type": "Mock Tests",
+    "phase": "Mock Tests",
+    "order": 9,
+    "estimated_hours": 30,
+    "weightage": "High",
+    "description": "Separate testing for English, GK, and Math.",
+    "resources": [
+      "CDS Test Series Portal"
+    ],
+    "prerequisites": [
+      "c-1",
+      "c-2",
+      "c-4"
+    ],
+    "tags": [
+      "Mock Tests"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "c-10",
+    "track_slug": "cds",
+    "title": "Full Length Mock Tests",
+    "type": "Mock Tests",
+    "phase": "Mock Tests",
+    "order": 10,
+    "estimated_hours": 40,
+    "weightage": "Very High",
+    "description": "Combined testing simulation.",
+    "resources": [
+      "Full Test Series"
+    ],
+    "prerequisites": [
+      "c-9"
+    ],
+    "tags": [
+      "Mock Tests",
+      "Full Mocks"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "e-1",
+    "track_slug": "ese",
+    "title": "Engineering Math & Aptitude",
+    "type": "Core",
+    "phase": "General Studies & Aptitude",
+    "order": 1,
+    "estimated_hours": 40,
+    "weightage": "High",
+    "description": "Calculus, Linear Algebra, Logical Reasoning.",
+    "resources": [
+      "Made Easy Math & Aptitude Guide"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Math",
+      "Aptitude"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "e-2",
+    "track_slug": "ese",
+    "title": "Ethics, Values & Environment",
+    "type": "Core",
+    "phase": "General Studies & Aptitude",
+    "order": 2,
+    "estimated_hours": 35,
+    "weightage": "Medium",
+    "description": "Engineering ethics, energy, environment.",
+    "resources": [
+      "GS Handbooks from standard coaching"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Ethics",
+      "Environment"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "e-3",
+    "track_slug": "ese",
+    "title": "Project Management & ICT",
+    "type": "Core",
+    "phase": "General Studies & Aptitude",
+    "order": 3,
+    "estimated_hours": 30,
+    "weightage": "Medium",
+    "description": "Basics of project management, material science, ICT.",
+    "resources": [
+      "Standard Study Material for ESE GS"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Management",
+      "ICT"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "e-4",
+    "track_slug": "ese",
+    "title": "Core Subject 1 & 2",
+    "type": "Core",
+    "phase": "Technical Subjects (Objective)",
+    "order": 4,
+    "estimated_hours": 80,
+    "weightage": "Very High",
+    "description": "Primary technical branch subjects.",
+    "resources": [
+      "Branch-specific standard textbooks"
+    ],
+    "prerequisites": [],
+    "tags": [
+      "Technical",
+      "Engineering"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "e-5",
+    "track_slug": "ese",
+    "title": "Core Subject 3 & 4",
+    "type": "Core",
+    "phase": "Technical Subjects (Objective)",
+    "order": 5,
+    "estimated_hours": 80,
+    "weightage": "Very High",
+    "description": "Secondary technical branch subjects.",
+    "resources": [
+      "Branch-specific standard textbooks"
+    ],
+    "prerequisites": [
+      "e-4"
+    ],
+    "tags": [
+      "Technical",
+      "Engineering"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "e-6",
+    "track_slug": "ese",
+    "title": "Advanced Technical Topics",
+    "type": "Core",
+    "phase": "Technical Subjects (Objective)",
+    "order": 6,
+    "estimated_hours": 60,
+    "weightage": "Medium",
+    "description": "Niche/advanced branch-specific topics.",
+    "resources": [
+      "Advanced reference books"
+    ],
+    "prerequisites": [
+      "e-5"
+    ],
+    "tags": [
+      "Technical",
+      "Engineering"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "e-7",
+    "track_slug": "ese",
+    "title": "Paper 1 Subjective Prep",
+    "type": "Practice",
+    "phase": "Conventional Papers (Mains)",
+    "order": 7,
+    "estimated_hours": 100,
+    "weightage": "Very High",
+    "description": "Deep derivation and subjective problem solving.",
+    "resources": [
+      "ESE Conventional solved papers"
+    ],
+    "prerequisites": [
+      "e-4"
+    ],
+    "tags": [
+      "Subjective",
+      "Mains"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "e-8",
+    "track_slug": "ese",
+    "title": "Paper 2 Subjective Prep",
+    "type": "Practice",
+    "phase": "Conventional Papers (Mains)",
+    "order": 8,
+    "estimated_hours": 100,
+    "weightage": "Very High",
+    "description": "Advanced design and analytical problems.",
+    "resources": [
+      "ESE Conventional solved papers"
+    ],
+    "prerequisites": [
+      "e-5"
+    ],
+    "tags": [
+      "Subjective",
+      "Mains"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "e-9",
+    "track_slug": "ese",
+    "title": "Prelims Test Series",
+    "type": "Mock Tests",
+    "phase": "Testing & Interview",
+    "order": 9,
+    "estimated_hours": 40,
+    "weightage": "High",
+    "description": "Objective mock tests.",
+    "resources": [
+      "Standard coaching test series"
+    ],
+    "prerequisites": [
+      "e-1",
+      "e-4",
+      "e-5"
+    ],
+    "tags": [
+      "Mock Tests",
+      "Prelims"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "e-10",
+    "track_slug": "ese",
+    "title": "Conventional Test Series",
+    "type": "Mock Tests",
+    "phase": "Testing & Interview",
+    "order": 10,
+    "estimated_hours": 60,
+    "weightage": "High",
+    "description": "Subjective mock tests.",
+    "resources": [
+      "Conventional test series evaluation"
+    ],
+    "prerequisites": [
+      "e-7",
+      "e-8"
+    ],
+    "tags": [
+      "Mock Tests",
+      "Mains"
+    ],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "id": "e-11",
+    "track_slug": "ese",
+    "title": "Personality Test",
+    "type": "Final Sprint",
+    "phase": "Testing & Interview",
+    "order": 11,
+    "estimated_hours": 30,
+    "weightage": "High",
+    "description": "Technical and HR interview preparation.",
+    "resources": [
+      "Mock interviews with experts"
+    ],
+    "prerequisites": [
+      "e-10"
+    ],
+    "tags": [
+      "Interview",
+      "Personality Test"
+    ],
+    "is_active": true,
+    "version": 1
+  }
+]
