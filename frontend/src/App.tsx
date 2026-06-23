@@ -39,6 +39,7 @@ function App() {
   }
 
   useEffect(() => {
+
     const token = localStorage.getItem('auth_token');
     if (!token) {
       setAppState('login');
@@ -82,6 +83,7 @@ function App() {
       {appState === 'login' && <LoginPage onLoginSuccess={handleLoginSuccess} />}
       {appState === 'landing' && (
         <LandingPage 
+          user={_user}
           onSelectTrack={(trackId) => {
             setSelectedTrack(trackId);
             setAppState('trackDetails');

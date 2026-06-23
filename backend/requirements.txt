@@ -18,3 +18,4 @@ cryptography>=41.0.0
 pymongo>=4.0
 feedparser>=6.0
 PyJWT>=2.0.0
+gunicorn>=21.2.0

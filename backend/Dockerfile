@@ -25,8 +25,12 @@ RUN pip install --default-timeout=1000 --no-cache-dir -r requirements.txt
 # Copy the rest of the application code
 COPY . /app/
 
+# Copy entrypoint script and ensure it's executable
+COPY entrypoint.sh /app/
+RUN chmod +x /app/entrypoint.sh
+
 # Expose Django port
 EXPOSE 8000
 
-# Start django development server
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+# Use the entrypoint script
+ENTRYPOINT ["/app/entrypoint.sh"]

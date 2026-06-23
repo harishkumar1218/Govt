@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'rag_pipeline',
     'roadmap',
     'essay',
+    'threads',
 ]
 
 SITE_ID = 1
@@ -94,8 +95,10 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_TZ = True
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
 # --- Custom Config ---
 CORS_ALLOWED_ORIGINS = os.environ.get(

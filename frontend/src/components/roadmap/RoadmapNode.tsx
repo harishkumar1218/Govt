@@ -89,7 +89,7 @@ export default function RoadmapNode({ node, isLast, isRecommended, onComplete }:
             </div>
           </div>
           
-          <div className={styles.completeBtnWrapper}>
+          <div className={styles.completeBtnWrapper} style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
             {node.status === 'completed' ? (
               <span className={styles.completedBadge}>
                 <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -106,6 +106,7 @@ export default function RoadmapNode({ node, isLast, isRecommended, onComplete }:
                 {node.id === 'u-17' ? 'Start Practice Session' : 'Mark as completed'}
               </button>
             )}
+
           </div>
         </div>
       </div>

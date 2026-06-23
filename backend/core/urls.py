@@ -13,6 +13,7 @@ urlpatterns = [
     path('api/rag/', include('rag_pipeline.urls')),
     path('api/roadmap/', include('roadmap.urls')),
     path('api/essay/', include('essay.urls')),
+    path('api/threads/', include('threads.urls')),
 ]
 
 if settings.DEBUG:

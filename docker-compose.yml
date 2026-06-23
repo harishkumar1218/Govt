@@ -51,7 +51,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./backend/media:/app/media
+      - ./backend:/app
       - ./config:/config
       - ./DB:/DB
     environment:
